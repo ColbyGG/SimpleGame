@@ -7,8 +7,20 @@
   </head>
   <body>
     <!-- page content -->
-    <svg width="800px" height="400px" viewbox="0 0 800 400" style="background:grey;">
-
+    <svg width="1000px" height="600px" viewbox="0 0 800 400" style="background:grey;">
+    <image href="right_logo.png" id="van" x="100" y="100" height="60px" width="60px"></image>
+    <image href="220px-Scooby-Snacks-F.jpg" x="300" y="0" height="40px" width="40px">
+     <animate id="snack1down" attributeName="y" to="400" dur="3s" begin="0s;snack1up.end" fill="freeze"/>
+      <animate id="snack1up" attributeName="y" to="0" dur="3s" begin="snack1down.end" fill="freeze"/>
+    </image>
+    <image href="220px-Scooby-Snacks-F.jpg" x="700" y="100" height="40px" width="40px">
+      <animate id="snack2down" attributeName="y" to="400" dur="1s" begin="3s;snack2up.end" fill="freeze"/>
+       <animate id="snack2up" attributeName="y" to="0" dur="1s" begin="snack2down.end" fill="freeze"/>
+    </image>
+    <image href="220px-Scooby-Snacks-F.jpg" x="500" y="100" height="40px" width="40px">
+      <animate id="snack3down" attributeName="y" to="400" dur="2s" begin="2s;snack3up.end" fill="freeze"/>
+       <animate id="snack3up" attributeName="y" to="0" dur="2s" begin="snack3down.end" fill="freeze"/>
+    </image>
     </svg>
   </body>
 </html>
