@@ -5,21 +5,26 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <!-- page content -->
-    <svg width="80%" height="50%" viewbox="0 0 1920 1080" style="background:grey;">
+    <!--SVG-->
+    <svg width="80%" height="80%" viewbox="0 0 1920 1080" style="background:grey;">
+    <text id="score" x="1400" y="100" font-family="sans-serif" font-size="50"fill="black">Food Eaten</text>
+    <!--Mystery Machine-->
     <image href="right_logo.png" id="van" x="100" y="100" height="100px" width="100px"></image>
-    <image href="220px-Scooby-Snacks-F.jpg" x="500" y="100" height="70px" width="60px">
+    <!--Scooby Snack-->
+    <image href="220px-Scooby-Snacks-F.jpg" id="snack1" x="500" y="100" height="70px" width="60px">
      <animate id="snack1down" attributeName="y" to="1080" dur="3s" begin="0s;snack1up.end" fill="freeze"/>
       <animate id="snack1up" attributeName="y" to="0" dur="3s" begin="snack1down.end" fill="freeze"/>
     </image>
-    <image href="220px-Scooby-Snacks-F.jpg" x="1000" y="100" height="70px" width="60px">
+<!--    <!--Scooby Snack
+    <image href="220px-Scooby-Snacks-F.jpg" id="snack2" x="1000" y="100" height="70px" width="60px">
       <animate id="snack2down" attributeName="y" to="1080" dur="1s" begin=".50s;snack2up.end" fill="freeze"/>
        <animate id="snack2up" attributeName="y" to="0" dur="1s" begin="snack2down.end" fill="freeze"/>
     </image>
-    <image href="220px-Scooby-Snacks-F.jpg" x="1300" y="100" height="70px" width="60px">
+    <!--Scooby Snack
+    <image href="220px-Scooby-Snacks-F.jpg" id="snack3" x="1300" y="100" height="70px" width="60px">
       <animate id="snack3down" attributeName="y" to="1080" dur="2s" begin=".2s;snack3up.end" fill="freeze"/>
        <animate id="snack3up" attributeName="y" to="0" dur="2s" begin="snack3down.end" fill="freeze"/>
-    </image>
+    </image> -->
     </svg>
     <script src="SimpleGame.js"></script>
   </body>
