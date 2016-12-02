@@ -1,5 +1,3 @@
-var xval = 100;
-var yval = 100;
 var foodEaten = 0;
 var timeStart = Date.now();
 /*Key Down Event*/
